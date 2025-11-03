@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Urban Fossil</title>
+
+  <link rel="stylesheet" href="https://use.typekit.net/xsm6ewa.css" /> 
+  <link rel="stylesheet" href="https://use.typekit.net/dgj1rwx.css"> 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- toolbar -->
+  <header class="toolbar" role="region" aria-label="Controls">
+    <button id="reloadBtn" class="btn" type="button" aria-label="Reload alternates">reload</button>
+    <button id="silhouetteToggle" class="btn" type="button" aria-pressed="false">Reveal all</button>
+
+    <div class="slider-wrap" aria-label="Replacement amount">
+      <span class="slider-label">less</span>
+      <input id="ratioSlider" class="slider" type="range" min="0" max="100" step="1" value="20" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" aria-label="Image replacement percentage">
+      <span class="slider-label">more</span>
+    </div>
+
+<button id="customToggle" class="btn" type="button" aria-expanded="false" aria-controls="customPanel">
+  Type your own
+</button>
+    <a id="indexBtn" class="btn" href="specimen.html" aria-label="Open Index page">Index</a>
+  </header>
+
+  <section id="customPanel" hidden>
+  <form id="customForm" class="custom-form" autocomplete="off">
+    <textarea id="customText" class="custom-input" rows="2"
+      placeholder="Type here…"></textarea>
+    <div class="custom-actions">
+      <button type="submit" class="btn">Apply</button>
+      <button type="button" id="customReset" class="btn" aria-label="Reset to default">Reset</button>
+    </div>
+  </form>
+</section>
+
+  <main class="page">
+    <p id="textHost"
+       data-text="Urban Fossil is a typeface excavated from the sidewalks of New York. Each letter form comes from a flattened object found on the street."></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

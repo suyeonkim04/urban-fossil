@@ -1,0 +1,97 @@
+{
+  "A/A_01.png": { "time": "", "location": "" },
+  "A/A_02.png": { "time": "2025-06-18 23:10", "location": "40.74337°N, 73.98213°W, Rose Hill" },
+  "A/A_03.png": { "time": "", "location": "" },
+
+  "B/B_01.png": { "time": "2025-06-11 20:55", "location": "40.73963°N, 73.97976°W, Kips Bay" },
+  "B/B_02.png": { "time": "2025-05-12 22:29", "location": "40.73945°N, 73.97963°W, Kips Bay" },
+
+  "C/C_01.png": { "time": "", "location": "" },
+  "C/C_02.png": { "time": "", "location": "" },
+  "C/C_03.png": { "time": "", "location": "" },
+  "C/C_04.png": { "time": "", "location": "" },
+  "C/C_05.png": { "time": "", "location": "" },
+  "C/C_06.png": { "time": "", "location": "" },
+  "C/C_07.png": { "time": "2025-05-14 22:08", "location": "40.74116°N, 73.98100°W, Kips Bay" },
+
+  "D/D_01.png": { "time": "2025-05-10 15:28", "location": "40.72932°N, 73.98788°W, East Village" },
+
+  "E/E_01.png": { "time": "", "location": "" },
+  "E/E_02.png": { "time": "2025-06-03 13:15", "location": "40.74150°N, 73.97985°W, Kips Bay" },
+  "E/E_03.png": { "time": "", "location": "" },
+  "E/E_04.png": { "time": "", "location": "" },
+
+  "F/F_01.png": { "time": "2025-05-11 00:20", "location": "40.73942°N, 73.97990°W, Kips Bay" },
+
+  "G/G_01.png": { "time": "", "location": "" },
+  "G/G_02.png": { "time": "", "location": "" },
+  "G/G_03.png": { "time": "2025-05-31 13:46", "location": "40.72871°N, 73.98990°W" },
+
+  "H/H_01.png": { "time": "2025-05-13 16:32", "location": "40.73084°N, 73.98316°W, East Village" },
+
+  "I/I_01.png": { "time": "", "location": "" },
+  "I/I_02.png": { "time": "", "location": "" },
+  "I/I_03.png": { "time": "", "location": "" },
+
+  "J/J_01.png": { "time": "2025-05-12 22:31", "location": "40.74046°N, 73.97884°W, Kips Bay" },
+  "J/J_02.png": { "time": "", "location": "" },
+
+  "K/K_01.png": { "time": "", "location": "" },
+  "K/K_02.png": { "time": "", "location": "" },
+
+  "L/L_01.png": { "time": "2025-06-21", "location": "40.75980°N, 73.98042°W, 47–50 Sts / Rockefeller Center" },
+  "L/L_02.png": { "time": "2025-06-17 23:20", "location": "40.74338°N, 73.98212°W, Rose Hill" },
+  "L/L_03.png": { "time": "", "location": "" },
+  "L/L_04.png": { "time": "", "location": "" },
+  "L/L_05.png": { "time": "", "location": "" },
+
+  "N/N_01.png": { "time": "2025-05-10 22:07", "location": "40.72910°N, 73.99020°W, East Village" },
+
+  "O/O_01.png": { "time": "2025-05-11 00:22", "location": "40.74006°N, 73.97933°W, Kips Bay" },
+  "O/O_02.png": { "time": "2025-05-10 22:07", "location": "40.72908°N, 73.99024°W, East Village" },
+
+  "P/P_01.png": { "time": "", "location": "" },
+  "P/P_02.png": { "time": "", "location": "" },
+  "P/P_03.png": { "time": "", "location": "" },
+  "P/P_04.png": { "time": "2025-05-10 22:06", "location": "40.72910°N, 73.99008°W, East Village" },
+
+  "Q/Q_01.png": { "time": "2025-05-12 22:28", "location": "40.73938°N, 73.97980°W, Kips Bay"},
+  "Q/Q_02.png": { "time": "2025-05-10 15:29", "location": "40.72817°N, 73.98808°W, East Village" },
+
+  "R/R_01.png": { "time": "2025-05-14 20:40", "location": "40.73615°N, 73.99110°W, Flatiron" },
+  "R/R_02.png": { "time": "2025-06-11 20:55", "location": "40.73937°N, 73.97974°W, Kips Bay" },
+  "R/R_03.png": { "time": "", "location": "" },
+  "R/R_04.png": { "time": "", "location": "" },
+  "R/R_05.png": { "time": "", "location": "" },
+  "R/R_06.png": { "time": "", "location": "" },
+  "R/R_07.png": { "time": "2025-05-31 13:45", "location": "40.72880°N, 73.99001°W, East Village" },
+  "R/R_08.png": { "time": "", "location": "" },
+
+  "S/S_01.png": { "time": "2025-06-21 18:01", "location": "40.73249°N, 73.97982°W, Stuyvesant Town" },
+  "S/S_02.png": { "time": "2025-05-10 22:05PM", "location": "40.72912°N, 73.98909°W, East Village" },
+  "S/S_03.png": { "time": "", "location": "" },
+
+  "T/T_01.png": { "time": "", "location": "" },
+  "T/T_02.png": { "time": "", "location": "" },
+
+  "U/U_01.png": { "time": "", "location": "" },
+  "U/U_02.png": { "time": "", "location": "" },
+
+  "V/V_01.png": { "time": "", "location": "" },
+  "V/V_02.png": { "time": "", "location": "" },
+  "V/V_03.png": { "time": "", "location": "" },
+  "V/V_04.png": { "time": "", "location": "" },
+  "V/V_05.png": { "time": "", "location": "" },
+  "V/V_06.png": { "time": "", "location": "" },
+
+  "W/W_01.png": { "time": "", "location": "" },
+  "W/W_02.png": { "time": "", "location": "" },
+
+  "Y/Y_01.png": { "time": "", "location": "" },
+  "Y/Y_02.png": { "time": "2025-05-11 20:42", "location": "40.72920°N, 73.99024°W, East Village" },
+  "Y/Y_03.png": { "time": "", "location": "" },
+  "Y/Y_04.png": { "time": "", "location": "" },
+  "Y/Y_05.png": { "time": "", "location": "" },
+
+  "Z/Z_01.png": { "time": "", "location": "" }
+}
