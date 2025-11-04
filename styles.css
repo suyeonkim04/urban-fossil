@@ -81,7 +81,7 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
 .alternate { outline: 0; }
 
 
-/* -------- toolbar (taller + seamless long fade) -------- */
+
 .toolbar{
   position: sticky;
   top: 0;
@@ -91,37 +91,37 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
   justify-content: space-between;
   gap: 1rem;
 
-  /* taller header */
+
   padding: 1.1rem 4vw;
   min-height: 72px;
 
-  /* frosted glass */
+
   background: rgba(255, 255, 255, 0.55);
   -webkit-backdrop-filter: blur(12px) saturate(180%);
   backdrop-filter: blur(12px) saturate(180%);
 
-  /* remove any hard edge */
+
   border: none;
   box-shadow: none;
   overflow: visible;
 
-  /* seamless fade inside the bar */
+
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 68%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 68%, transparent 100%);
 
-  /* prevent subpixel seams during compositing */
+
   transform: translateZ(0);
   background-clip: padding-box;
 }
 
-/* extended soft overlay fade below the bar */
+
 .toolbar::after{
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -80px;   /* how far the fade extends below the bar */
-  height: 80px;    /* length of the fade */
+  bottom: -80px;   
+  height: 80px;    
   pointer-events: none;
   background: linear-gradient(
     to bottom,
@@ -132,7 +132,7 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
   );
 }
 
-/* -------- buttons & links (pill glass, no underline) -------- */
+
 .btn, a.btn{
   font: inherit;
   text-transform: uppercase;
@@ -146,7 +146,7 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
   -webkit-backdrop-filter: blur(10px) saturate(180%);
   backdrop-filter: blur(10px) saturate(180%);
   color: #000;
-  text-decoration: none; /* removes underline on Index */
+  text-decoration: none; 
 
   box-shadow:
     0 0.5px 0 rgba(255,255,255,0.6) inset,
@@ -164,7 +164,7 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
   outline-offset: 2px;
 }
 
-/* -------- custom panel + input (unchanged glass) -------- */
+
 #customPanel{ padding:.75rem 4vw 0; }
 .custom-form{
   display:grid; grid-template-columns:1fr auto auto;
@@ -196,7 +196,6 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
   box-shadow: 0 0 0 3px rgba(0,0,0,0.06);
 }
 
-/* -------- slider (light, glassy) -------- */
 .slider-wrap{
   flex: 1; display:flex; align-items:center; justify-content:center;
   gap:.75rem; min-width:160px;
@@ -236,7 +235,7 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
     0 2px 6px rgba(0,0,0,0.15);
 }
 
-/* Responsive toolbar layout: stack pairs on small screens */
+
 @media (max-width: 720px){
   .toolbar{
     display: grid;
@@ -250,17 +249,43 @@ body, button, input, textarea, select, label, .toolbar, .btn, .custom-form {
     align-items: center;
   }
 
-  /* Place each control into a grid area */
+
   #reloadBtn{ grid-area: left-top;   justify-self: start; }
   #silhouetteToggle{ grid-area: left-btm; justify-self: start; }
 
   .slider-wrap{ grid-area: center; justify-self: center; width: 100%; }
-  /* Keep slider from shrinking too tiny */
+
   .slider{ width: 100%; max-width: 520px; }
 
   #indexBtn{ grid-area: right-top;  justify-self: end; }
   #customToggle{ grid-area: right-btm; justify-self: end; }
 
-  /* Optional: prevent buttons from stretching full width */
+
   .toolbar .btn{ max-width: 100%; white-space: nowrap; }
+}
+
+/* Black silhouette state for letter images */
+.letter-img.obscured {
+  /* preserves alpha, turns visible pixels black */
+  filter: grayscale(1) brightness(0);
+  transition: filter 120ms ease;
+  cursor: pointer; /* hint it's interactive */
+}
+
+/* Optional: keyboard focus ring for a11y */
+.letter-img[role="button"]:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* kill any focus ring on the toggleable images */
+.letter-img[role="button"],
+.letter-img[role="button"]:focus,
+.letter-img[role="button"]:focus-visible {
+  outline: none !important;
+}
+
+/* iOS tap highlight */
+.letter-img[role="button"] {
+  -webkit-tap-highlight-color: transparent;
 }
